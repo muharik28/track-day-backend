@@ -41,6 +41,16 @@
     │   └── api/
     │       └── main.go
     │
+    ├── build/                  # Build-related files
+    │   └── package/            # Package-related files
+    │       └── Dockerfile      # Dockerfile for building the application
+    │
+    ├── cmd/
+    │   └── rest/
+    │       ├── rest.go
+    │       └── scheduler/
+    |           └── scheduler.go
+    |
     ├── internal/
     │   ├── domain/
     │   │   ├── user/
@@ -128,7 +138,6 @@
     │
     ├── .env.example
     ├── .gitignore
-    ├── Dockerfile
     ├── docker-compose.yml
     ├── Makefile
     ├── go.mod
