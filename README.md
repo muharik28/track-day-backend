@@ -41,15 +41,17 @@
     │   └── api/
     │       └── main.go
     │
-    ├── build/                  # Build-related files
-    │   └── package/            # Package-related files
-    │       └── Dockerfile      # Dockerfile for building the application
+    ├── build/                      # Build-related files
+    │   └── package/                # Package-related files
+    │       └── Dockerfile          # Dockerfile for building the application
     │
-    ├── cmd/
-    │   └── rest/
-    │       ├── rest.go
-    │       └── scheduler/
-    |           └── scheduler.go
+    ├── cmd/                        # Contains main applications
+    │   ├── rest/                   # REST application
+    │   |   ├── rest.go             # Entry point Cobra Command for REST app
+    │   |   └── scheduler/          # Scheduler for tasks
+    |   |       └── scheduler.go    # Entry point Cobra Command for scheduler
+    |   |
+    |   └── root.go                 # Entry point for the root Cobra Command
     |
     ├── internal/
     │   ├── domain/
