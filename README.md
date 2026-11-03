@@ -37,9 +37,11 @@
     │   │
     │   └── config.yaml
     │
-    ├── cmd/
-    │   └── api/
-    │       └── main.go
+    ├── api/
+    │   └── rest/
+    │       └── specs/
+    |           ├── routes/
+    |           └── server.go
     │
     ├── build/                      # Build-related files
     │   └── package/                # Package-related files
@@ -138,7 +140,8 @@
     │   ├── architecture.md
     │   └── deployment.md
     │
-    ├── .env.example
+    ├── .env                # Environment variables (gitignored)
+    ├── .env.example        # Environment variables example
     ├── .gitignore
     ├── docker-compose.yml
     ├── Makefile
