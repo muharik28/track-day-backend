@@ -39,8 +39,9 @@
     │
     ├── api/
     │   └── rest/
-    │       └── specs/
+    │       └── api/
     |           ├── routes/
+    |           |   └── routes.go
     |           └── server.go
     │
     ├── build/                      # Build-related files
