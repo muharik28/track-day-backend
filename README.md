@@ -37,12 +37,12 @@
     │   │
     │   └── config.yaml
     │
-    ├── api/
-    │   └── rest/
-    │       └── api/
-    |           ├── routes/
-    |           |   └── routes.go
-    |           └── server.go
+    ├── api/                        # API definitions
+    │   └── rest/                   # REST API definitions
+    │       └── api/                # REST API implementation
+    |           ├── routes/         # Routes for REST API
+    |           |   └── routes.go   # Routes for method REST FULL API
+    |           └── server.go       # Server setup for REST API
     │
     ├── build/                      # Build-related files
     │   └── package/                # Package-related files
