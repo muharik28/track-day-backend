@@ -143,8 +143,7 @@
     │
     ├── .env                # Environment variables (gitignored)
     ├── .env.example        # Environment variables example
-    ├── .gitignore
-    ├── docker-compose.yml
+    ├── .gitignore          # ignorer file
     ├── Makefile            # Automating the build process (compilation and integration) of program code
     ├── go.mod
     ├── go.sum
