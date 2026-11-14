@@ -134,8 +134,7 @@
     │       └── user_test.go
     │
     ├── deployments/
-    │   └── docker/
-    │       └── Dockerfile
+    │   └── docker-compose.yml
     │
     ├── docs/
     │   ├── architecture.md
