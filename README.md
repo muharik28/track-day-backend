@@ -134,7 +134,7 @@
     │       └── user_test.go
     │
     ├── deployments/            # Deployment-related files
-    │   └── docker-compose.yml
+    │   └── docker-compose.yml  # Docker Compose configuration file
     │
     ├── docs/
     │   ├── architecture.md
