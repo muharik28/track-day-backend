@@ -133,7 +133,7 @@
     │   └── integration/
     │       └── user_test.go
     │
-    ├── deployments/
+    ├── deployments/            # Deployment-related files
     │   └── docker-compose.yml
     │
     ├── docs/
