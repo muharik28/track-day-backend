@@ -86,7 +86,7 @@
     │   │       └── create_transaction.go
     │   │
     │   ├── infrastructure/
-    │   │   ├── database/
+    │   │   ├── database/           # Database related code
     │   │   │   └── postgres.go
     │   │   │
     │   │   ├── cache/
