@@ -88,7 +88,7 @@
     │   ├── infrastructure/
     │   │   ├── database/           # Database related code
     │   │   │   ├── sql/            # SQL database connection code
-    │   │   │   └── nosql/
+    │   │   │   └── nosql/          # NoSQL database connection code
     │   │   │
     │   │   ├── cache/
     │   │   │   └── redis.go
