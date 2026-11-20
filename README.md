@@ -93,7 +93,7 @@
     │   │   ├── cache/
     │   │   │   └── redis.go
     │   │   │
-    │   │   ├── logger/
+    │   │   ├── logger/             # Logging utilities
     │   │   │   └── logger.go
     │   │   │
     │   │   └── config/
