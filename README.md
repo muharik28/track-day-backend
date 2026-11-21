@@ -123,7 +123,7 @@
     │   └── bootstrap/
     │       └── app.go
     │
-    ├── migrations/
+    ├── migrations/                             # Database migration scripts
     │   ├── 001_create_users_table.up.sql
     │   └── 001_create_users_table.down.sql
     │
